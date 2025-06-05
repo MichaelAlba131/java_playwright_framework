@@ -83,6 +83,45 @@ project-root/
   <li>O framework é extensível para outras páginas e fluxos web.</li>
 </ul>
 
+<h2>🚀 Instale o Allure CLI</h2>
+
+<strong>macOS:</strong>
+```bash
+  brew install allure
+```
+
+<strong>Linux:</strong>
+```bash
+  sdk install allure
+```
+<span style="font-size:smaller;">Ou veja outras opções de instalação em <a href="https://docs.qameta.io/allure/#_installing_a_commandline" target="_blank">https://docs.qameta.io/allure/#_installing_a_commandline</a></span>
+</p>
+
+<p><strong>Windows:</strong><br>
+Baixe o Allure no <a href="https://github.com/allure-framework/allure2/releases/latest" target="_blank">site oficial</a> e adicione a pasta <code>/bin</code> ao <strong>Path</strong> do sistema.
+</p>
+
+***
+
+###  🏃‍♂️ Execução do TestRunner
+Para garantir que o Allure Report seja gerado corretamente, é necessário executar os testes a partir da classe `TestRunner`. Isso assegura que todas as informações relevantes dos testes sejam coletadas e armazenadas nos resultados do Allure.
+
+### 📄 Geração do Relatório
+Após a execução dos testes, você pode gerar o relatório do Allure utilizando o seguinte comando no terminal:
+
+```bash
+  allure serve report PATH/allure-results
+```
+
+Para gerar o arquivo HTML do report basta executar no terminal o comando abaixo:
+```bash
+  allure generate allure-results --clean -o allure-report
+```
+
+<h2>📝 Licença</h2>
+<p>
+Distribuído sob a licença MIT. Veja o arquivo <code>LICENSE</code> para mais informações.
+</p>
+
 <br>
 <p align="center">🚀 Framework de automação pronto para evoluir com seu time!<br>
-Dúvidas ou sugestões? Abra uma <a href="https://github.com/seurepo/issues">issue</a>!</p>
