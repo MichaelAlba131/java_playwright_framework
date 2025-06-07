@@ -118,7 +118,7 @@ Para gerar o arquivo HTML do report basta executar no terminal o comando abaixo:
   allure generate allure-results --clean -o allure-report
 ```
 
-<h2>📝 Licença</h2>
+<h2>🪪 Licença</h2>
 <p>
 Distribuído sob a licença MIT. Veja o arquivo <code>LICENSE</code> para mais informações.
 </p>
